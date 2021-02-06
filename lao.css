@@ -1,0 +1,52 @@
+body{
+  background-color: #f9ecf2;
+  color: black;
+  font-family: Arial;
+
+}
+h1 {
+  text-align: center;
+}
+
+/* This is the navbar*/
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #e6f2ff;
+  color: black;
+  border: 1px solid #33334d;
+  position: fixed;
+}
+
+ul.navbar li a {
+  display: block;
+  color: #33334d;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+ul.navbar li{
+  text-align: center;
+  border-bottom: 1px solid #33334d;
+}
+
+ul.navbar li:last-child {
+  border-bottom: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #e6ffff;
+  color: black;
+}
+/*This is no longer the navbar*/
+
+@media (max-width: 400px){
+
+}
+
+@media (max-width: 600px){
+  
+}
